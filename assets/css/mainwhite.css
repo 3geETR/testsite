@@ -3337,6 +3337,8 @@ input[type="button"].btn-block {
   font-size: 1.15rem;
   line-height: 1;
   background-color: transparent;
+  border-color: #f8f9fa !important;
+  color: #f8f9fa !important;
   border: 1px solid transparent;
   border-radius: 0.25rem; }
   .navbar-toggler:hover, .navbar-toggler:focus {
@@ -3350,6 +3352,7 @@ input[type="button"].btn-block {
   height: 1.5em;
   vertical-align: middle;
   content: "";
+  color: #f8f9fa !important;
   background: no-repeat center center;
   background-size: 100% 100%; }
 
