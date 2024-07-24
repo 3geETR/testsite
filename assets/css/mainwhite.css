@@ -4,6 +4,12 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+
+@font-face {
+  font-family: "Minecraft";
+  src: url("../assets/fonts/mc.tff");
+}
+
 :root {
   --blue: #7832e2;
   --indigo: #502c6c;
@@ -40,8 +46,8 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: "Segoe UI", "Helvetica Neue", "Arial";
-  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+  --font-family-sans-serif: "Minecraft";
+  --font-family-monospace: "Minecraft"; }
 
 *,
 *::before,
@@ -49,7 +55,7 @@
   box-sizing: border-box; }
 
 html {
-  font-family: sans-serif;
+  font-family: "Minecraft";
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -64,7 +70,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "Segoe UI", "Helvetica Neue", "Arial";
+  font-family: "Minecraft";
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.6;
@@ -168,7 +174,7 @@ pre,
 code,
 kbd,
 samp {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: "Minecraft";
   font-size: 1em; }
 
 pre {
@@ -7085,7 +7091,7 @@ button.bg-lightblue:focus {
     margin-left: auto !important; } }
 
 .text-monospace {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+  font-family: "Minecraft"; }
 
 .text-justify {
   text-align: justify !important; }
